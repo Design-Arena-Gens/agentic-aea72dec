@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aayam Arts WordPress Build Prompt</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container hero__content">
+        <div>
+          <span class="pill">Operational Brief</span>
+          <h1>Done-For-You Prompt to Build Aayam Arts on WordPress</h1>
+          <p>
+            Use this end-to-end implementation prompt to create a high-performing,
+            conversion-optimized website for Aayam Arts, showcasing premium 3D
+            visualization services with persuasive storytelling, immersive media,
+            and relentless calls to action.
+          </p>
+          <div class="cta-group">
+            <a class="cta" href="#prompt">View Master Prompt</a>
+            <a class="cta cta--ghost" href="#deliverables">Key Deliverables</a>
+          </div>
+        </div>
+        <div class="hero__badge">
+          <strong>Mission:</strong>
+          <p>Launch a modern WordPress experience that converts demo requests and paid projects.</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="prompt" class="section">
+        <div class="container">
+          <div class="section__header">
+            <h2>Master Execution Prompt</h2>
+            <p>
+              Paste this prompt into your build workflow (e.g., AI pair-programmer,
+              internal SOP, or agency ticket) to produce the full WordPress site.
+            </p>
+          </div>
+          <article class="prompt">
+            <h3>Primary Objective</h3>
+            <p>
+              Architect and launch <strong>aayamarts.com</strong> on WordPress as a
+              premium digital showroom for Aayam Arts, specializing in 3D
+              walkthroughs, blueprints, building elevations, VR demos, and 3D
+              prints for residential and commercial complexes, apartments, and housing societies.
+            </p>
+
+            <h3>Core Requirements</h3>
+            <ol>
+              <li>
+                Deliver a lightning-fast, responsive, SEO-ready WordPress site using a
+                modern visual builder (Elementor Pro or Gutenberg blocks with a lean
+                base theme such as Hello or GeneratePress).
+              </li>
+              <li>
+                Integrate all supplied media assets (images, renders, videos, CAD
+                snippets) into a visually rich portfolio that highlights service
+                depth, innovation, and successful outcomes. Create custom thumbnail
+                covers if any asset lacks a poster frame.
+              </li>
+              <li>
+                Ensure every non-hero section includes a high-visibility CTA button
+                or sticky action (Book a Demo, Buy a Service, Request Custom Quote).
+              </li>
+              <li>
+                Build an intuitive navigation and user journey that funnels visitors
+                from awareness to conversion in three clicks or fewer.
+              </li>
+            </ol>
+
+            <h3>Page Map & Content Blueprint</h3>
+            <ul>
+              <li>
+                <strong>Homepage:</strong> Immersive hero with background video loop
+                (web-optimized portfolio footage), USP headline, trust proof ribbon,
+                and dual CTAs. Add dynamic counters (projects delivered, satisfied
+                clients, total built-up area visualized) with GSAP-like animations.
+              </li>
+              <li>
+                <strong>Services Hub:</strong> Break down offerings into modules for
+                3D Walkthroughs, 3D Blueprints, Architectural Elevations, VR Demo
+                Studios, and 3D Printing. Each module must showcase use cases,
+                feature highlights, mini galleries, pricing tiers (if available),
+                and context-specific CTA (e.g., “Start Elevation Design”).
+              </li>
+              <li>
+                <strong>Portfolio Vault:</strong> Grid and filterable showcase using
+                categories (Complexes, Apartments, Societies, Commercial). Each
+                project detail page includes hero media, challenge/solution/outcome
+                narrative, embedded walkthrough (YouTube/Vimeo/MP4), gallery slider,
+                and testimonial pull-quote.
+              </li>
+              <li>
+                <strong>Process & Tech Stack:</strong> Timeline layout describing
+                discovery, concepting, modeling, rendering, iteration, delivery, and
+                aftercare. Highlight software stack (AutoCAD, Blender, Unreal,
+                Unity, proprietary pipelines) and include a “Book Your Process Demo” CTA ribbon.
+              </li>
+              <li>
+                <strong>Industries & Use Cases:</strong> Segment by Residential,
+                Commercial, Urban Planning, Hospitality, and Retail. For each,
+                outline value props, deliverables, and tailored CTA.
+              </li>
+              <li>
+                <strong>Insights Blog:</strong> Activate WordPress blog with at least
+                six pillar posts (e.g., “How 3D Walkthroughs Accelerate Sales for
+                Apartment Builders”) scheduled for publication. Optimize with
+                internal linking, schema, and rich snippets.
+              </li>
+              <li>
+                <strong>Contact & Conversion:</strong> Multi-step form (Name, Email,
+                Phone, Organization, Project Type, Timeline, Budget, Upload Brief).
+                Integrate Calendly (or similar) for instant demo bookings and embed a
+                WhatsApp floating action button.
+              </li>
+            </ul>
+
+            <h3>Design Direction</h3>
+            <ul>
+              <li>
+                Color System: Midnight charcoal (#0f172a), electric cyan (#06b6d4),
+                warm accent amber (#f59e0b), off-white backgrounds (#f8fafc).
+              </li>
+              <li>
+                Typography: Pair a bold geometric sans for headings (e.g., Gotham,
+                Montserrat) with clean body copy (Inter or Source Sans). Ensure ample
+                white space and cinematic media presentation.
+              </li>
+              <li>
+                Use layered glassmorphism cards, subtle parallax, and hover
+                microinteractions. Keep animations GPU-friendly and non-intrusive.
+              </li>
+              <li>
+                CTA buttons must be sticky on mobile, and desktop header should
+                feature a “Book a Demo Now” high-contrast button.
+              </li>
+            </ul>
+
+            <h3>Functional Must-Haves</h3>
+            <ul>
+              <li>
+                Compress and lazy-load all media. Serve videos via native HTML5
+                players or trusted embeds with custom poster frames. Ensure WebP
+                conversion for images.
+              </li>
+              <li>
+                Implement caching, CDN, and performance plugins (WP Rocket or
+                equivalent). Target sub-2s LCP on mid-tier mobile devices.
+              </li>
+              <li>
+                Configure analytics (GA4), conversion goals, and event tracking for
+                all CTAs, forms, and media engagements.
+              </li>
+              <li>
+                Add GDPR-friendly cookie banner, privacy policy, and terms pages.
+              </li>
+              <li>
+                Secure the site with SSL, reCAPTCHA v3 on forms, and daily backups.
+              </li>
+            </ul>
+
+            <h3>Portfolio & Asset Handling</h3>
+            <ul>
+              <li>
+                Upload all supplied imagery/video into WordPress Media Library with
+                descriptive alt text and filenames. Organize using folders (via
+                plugin if needed) by service type.
+              </li>
+              <li>
+                For each case study, craft a storytelling narrative, client persona,
+                scope, deliverables, tools used, timeline, challenges, solutions, and
+                measurable outcomes (conversion lift, sales velocity, cost savings).
+              </li>
+              <li>
+                Build an interactive gallery modal with autoplay toggle, VR demo
+                embeds, and download option for PDF blueprints.
+              </li>
+            </ul>
+
+            <h3>Marketing Integrations</h3>
+            <ul>
+              <li>
+                Connect marketing automation (HubSpot/ActiveCampaign) for lead
+                capture, nurture sequences, and CRM syncing.
+              </li>
+              <li>
+                Implement exit-intent popup offering “Free 3D Visualization Audit”.
+              </li>
+              <li>
+                Add testimonial carousel with client logos, ratings, and video
+                snippets. Include trust badges (ISO, RERA, awards) if available.
+              </li>
+              <li>
+                Create downloadable brochures/one-pagers gated behind lead capture forms.
+              </li>
+            </ul>
+
+            <h3>SEO & Content Governance</h3>
+            <ul>
+              <li>
+                Perform keyword mapping: primary (3D walkthrough services India,
+                architectural visualization studio), secondary (VR property tours,
+                building elevation designers), and local queries (3D visualization in
+                Pune/Mumbai/etc.).
+              </li>
+              <li>
+                Configure Yoast or Rank Math with tailored metadata, schema markup,
+                and Open Graph images. Implement breadcrumb navigation.
+              </li>
+              <li>
+                Draft cornerstone content style guide to maintain tone (expert,
+                visionary, solution-driven) and brand voice consistency.
+              </li>
+            </ul>
+
+            <h3>Launch Checklist</h3>
+            <ul>
+              <li>Cross-browser QA (Chrome, Safari, Firefox, Edge, Android, iOS).</li>
+              <li>404 page customization with CTA redirecting to demo booking.</li>
+              <li>Performance audit via PageSpeed Insights and WebPageTest.</li>
+              <li>Accessibility: WCAG AA checks, focus states, ARIA labels.</li>
+              <li>Security hardening: limit login attempts, disable XML-RPC if unused.</li>
+            </ul>
+
+            <h3>Post-Launch Handoff</h3>
+            <ul>
+              <li>
+                Document full component library, global styles, and WordPress admin
+                training guide (video + PDF).
+              </li>
+              <li>
+                Provide 90-day maintenance plan with update cadence and analytics reporting.
+              </li>
+              <li>
+                Include roadmap for future enhancements: interactive cost calculator,
+                AR visualization previews, client portal.
+              </li>
+            </ul>
+
+            <div class="prompt__cta">
+              <a class="cta" href="#deliverables">Proceed to Build Checklist</a>
+              <a class="cta cta--ghost" href="#contact">Book Demo CTA Map</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="deliverables" class="section section--alt">
+        <div class="container">
+          <div class="section__header">
+            <h2>Mandatory Deliverables</h2>
+            <p>
+              Track completion with a project board. Every item must link to a live URL or document before launch.
+            </p>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <h3>Experience & Conversion</h3>
+              <ul>
+                <li>Hero walkthrough with dual CTAs.</li>
+                <li>Sticky mobile booking button.</li>
+                <li>Dynamic metrics counter.</li>
+                <li>Embedded Calendly + WhatsApp CTA.</li>
+              </ul>
+              <a class="cta" href="#contact">Book a Demo Now</a>
+            </article>
+            <article class="card">
+              <h3>Portfolio Engine</h3>
+              <ul>
+                <li>Filterable gallery of provided assets.</li>
+                <li>Individual case study templates.</li>
+                <li>VR/AR demo embeds with fallback.</li>
+                <li>Downloadable blueprint PDFs.</li>
+              </ul>
+              <a class="cta" href="#portfolio">Show Projects</a>
+            </article>
+            <article class="card">
+              <h3>Growth Foundations</h3>
+              <ul>
+                <li>GA4, Meta Pixel, LinkedIn Insight installed.</li>
+                <li>Lead magnet workflow automation.</li>
+                <li>SEO schema + XML sitemap.</li>
+                <li>Security & backup automation.</li>
+              </ul>
+              <a class="cta" href="#marketing">Activate Now</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section">
+        <div class="container">
+          <div class="section__header">
+            <h2>Portfolio Upload Instructions</h2>
+            <p>Follow this standard operating procedure while ingesting assets.</p>
+          </div>
+          <div class="grid">
+            <div class="grid__item">
+              <h3>Asset Inventory</h3>
+              <p>
+                Consolidate all supplied images, renders, CAD exports, and videos in a
+                Cloud folder. Maintain a mapping sheet with filename, project title,
+                service type, description, and CTA destination page.
+              </p>
+              <a class="cta" href="#contact">Request Custom Upload</a>
+            </div>
+            <div class="grid__item">
+              <h3>Optimization Workflow</h3>
+              <p>
+                Batch convert images to WebP (quality 80), create poster JPGs for
+                videos, and export compressed MP4 (H.264, 1080p). Use background
+                processing plugins to manage large files without timeouts.
+              </p>
+              <a class="cta" href="#contact">Need Optimization Help</a>
+            </div>
+            <div class="grid__item">
+              <h3>Showcase Strategy</h3>
+              <p>
+                Organize galleries by project phase—concept, wireframe, render,
+                immersive walkthrough. Annotate each slide with captions describing
+                value delivered and measurable results.
+              </p>
+              <a class="cta" href="#contact">Book Portfolio Audit</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="marketing" class="section section--alt">
+        <div class="container marketing">
+          <div>
+            <h2>Marketing Automation Stack</h2>
+            <p>
+              Configure CRM and automation so every CTA triggers a nurturing
+              sequence, ensuring no lead is missed.
+            </p>
+            <ul>
+              <li>Connect forms and CTAs to HubSpot/ActiveCampaign.</li>
+              <li>Trigger SMS/WhatsApp alerts for high-intent inquiries.</li>
+              <li>Schedule follow-up sequences (Day 0, 2, 7, 14).</li>
+              <li>Set up dashboard for demo bookings, conversions, revenue.</li>
+            </ul>
+          </div>
+          <div class="marketing__cta">
+            <p>Ready to automate lead capture and demos?</p>
+            <a class="cta" href="#contact">Buy Automation Service</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container contact__inner">
+          <div>
+            <h2>CTA Placement Map</h2>
+            <p>
+              Mirror this CTA coverage inside WordPress: hero, services, portfolio,
+              blog, footer, sticky mobile, exit-intent, chatbot handoff.
+            </p>
+            <ul>
+              <li>Primary CTA copy: “Book a Demo Now”.</li>
+              <li>Secondary CTA copy: “Buy Visualization Service”.</li>
+              <li>Utility CTA copy: “Share Project Requirements”.</li>
+              <li>Use color-coded button variants for clarity.</li>
+            </ul>
+          </div>
+          <form class="contact__form" aria-label="CTA strategy form">
+            <h3>Prototype CTA Hand-Off</h3>
+            <label>
+              Name
+              <input type="text" placeholder="Enter full name" required />
+            </label>
+            <label>
+              Business Email
+              <input type="email" placeholder="you@company.com" required />
+            </label>
+            <label>
+              Project Scope
+              <textarea placeholder="Describe your 3D visualization needs" rows="4"></textarea>
+            </label>
+            <button class="cta" type="submit">Book a Demo Now</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div>
+          <strong>Aayam Arts</strong>
+          <p>Next-gen 3D visualization powerhouse for visionary real estate brands.</p>
+        </div>
+        <div class="footer__cta">
+          <a class="cta" href="#contact">Buy Service</a>
+          <a class="cta cta--ghost" href="#prompt">Review Prompt</a>
+        </div>
+      </div>
+      <p class="footer__note">© <span id="year"></span> Aayam Arts. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
